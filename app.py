@@ -51,11 +51,11 @@ FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
 
 
 DB_CONFIG = {
-    "host": os.environ.get("DB_HOST"),
-    "user": os.environ.get("DB_USER"),
+    "host": "sql12.freesqldatabase.com",
+    "user": "sql12839784",
     "password": os.environ.get("DB_PASSWORD"),
-    "database": os.environ.get("DB_NAME", "neuroprompt_db"),
-    "port": int(os.environ.get("DB_PORT", 3306))
+    "database": "sql12839784",
+    "port": 3306
 }
 
 
